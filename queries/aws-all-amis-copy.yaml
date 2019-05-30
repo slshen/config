@@ -1,0 +1,4 @@
+---
+description: All Amis
+cypher: match (a:AwsAmi) return a
+name: aws-all-amis-copy
