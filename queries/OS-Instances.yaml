@@ -1,0 +1,4 @@
+---
+description:
+cypher: match (o:OsInstance) return o.hostname, o.osRelease_id, o.osRelease_version_id
+name: OS-Instances
