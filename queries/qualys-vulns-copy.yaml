@@ -1,0 +1,6 @@
+---
+description: All Open Qualys Vulnerabilities
+cypher: match (a:QualysVuln) return a.qid as quid, a.application as application, a.title
+  as title, a.severity as severity, a.firstDetectedDate as firstDetectedDate, a.lastDetectedDate
+  as lastDetectedDate
+name: qualys-vulns-copy
