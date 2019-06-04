@@ -1,0 +1,4 @@
+---
+description: All VPCS
+cypher: match (a:AwsVpc) return a
+name: soluble.aws.vpcs
