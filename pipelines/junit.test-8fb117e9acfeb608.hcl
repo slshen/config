@@ -3,7 +3,7 @@ query = true
 
 stage {
   cypher {
-    query = "return \"Young Fathers\" as name"
+    query = "return \"Arcade Fire\" as name"
   }
 }
 
