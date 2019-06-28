@@ -1,10 +1,9 @@
 name = "junit.test-fdd6eecdb3ec6059"
 query = false
-description = "Band from Edinburgh"
-schedule = "* * * * *"
+schedule = "*/5 * * * *"
 
 stage {
   cypher {
-    query = "return \"Young Fathers\" as name"
+    query = "return \"Arcade Fire\" as name"
   }
 }
